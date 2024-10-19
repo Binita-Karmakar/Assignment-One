@@ -107,3 +107,17 @@ section p {
   cursor: pointer;
   text-decoration: none;
 }
+
+.inspiration-section {
+  margin: 70px 130px;
+  padding: 8%;
+}
+
+.iframe-video {
+  padding: 14px;
+  margin-top: 40px;
+}
+
+iframe {
+  border-radius: 14px;
+}
