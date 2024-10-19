@@ -4,17 +4,22 @@
   font-style: normal;
 }
 
+/* common styles */
 * {
   margin: 0;
 }
 
+.text-center {
+  text-align: center;
+}
+
+/* banner styles */
 .banner {
   background-image: url("../assets/Hero-bg.png");
   background-size: cover;
   background-position: center;
-  text-align: center;
-  height: 540px;
   padding: 26px 220px 45px 220px;
+
 }
 
 .banner-title {
@@ -25,6 +30,7 @@
 
 .banner-description {
   font-size: 14px;
+  max-height: 310px;
   padding: 24px 80px 30px 80px;
 }
 
@@ -35,4 +41,69 @@
   font-size: 16px;
   font-weight: 600;
   color: #FFFFFF;
+}
+
+/* why web development section styles */
+.web-dev {
+  margin: 70px 130px;
+  padding: 80px 130px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+  ;
+}
+
+.section-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.section-subtitle {
+  margin: 20px 40px;
+}
+
+section p {
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.web-dev-container {
+  margin-top: 40px;
+}
+
+.web-dev-column {
+  display: flex;
+  border-radius: 16px;
+  background: linear-gradient(90.00deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+.space-value-1,
+.space-value-3 {
+  justify-content: space-between;
+}
+
+.space-value-2 {
+  justify-content: flex-start;
+  padding: 30px;
+}
+
+.web-dev-div {
+  width: 50%;
+}
+
+.web-dev-title {
+  margin-bottom: 14px;
+}
+
+.web-dev-btn {
+  color: rgb(13, 19, 33);
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 26px;
+  padding: 10px 18px;
+  opacity: 0.7;
+  cursor: pointer;
+  text-decoration: none;
 }
