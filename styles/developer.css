@@ -203,3 +203,12 @@ iframe {
   background-color: white;
   border-radius: 5px;
 }
+
+/* footer part styles */
+.footer-div {
+  display: flex;
+  padding: 26px 130px;
+  justify-content: space-between;
+  background-color: rgba(13, 19, 33, 0.03);
+  align-items: center;
+}
