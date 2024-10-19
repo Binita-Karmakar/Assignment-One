@@ -58,7 +58,7 @@
 }
 
 .section-subtitle {
-  margin: 20px 40px;
+  margin: 20px 120px 40px 120px;
 }
 
 section p {
@@ -108,16 +108,57 @@ section p {
   text-decoration: none;
 }
 
+/* my inspiration section */
 .inspiration-section {
   margin: 70px 130px;
-  padding: 8%;
-}
-
-.iframe-video {
-  padding: 14px;
-  margin-top: 40px;
+  padding: 80px 130px;
 }
 
 iframe {
   border-radius: 14px;
+}
+
+/* my current target section */
+.current-target-card {
+  display: flex;
+  gap: 20px;
+
+}
+
+.card-common-styles {
+  border-radius: 14px;
+  padding: 34px;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card-common-styles>h3 {
+  margin: 8px 0;
+}
+
+.card-common-styles>p {
+  color: rgb(13, 19, 33);
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.card-common-styles a {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(13, 19, 33);
+}
+
+.html-card {
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.css-card {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.js-card {
+  background: rgba(255, 223, 0, 0.05);
 }
